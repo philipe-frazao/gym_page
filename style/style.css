@@ -1,0 +1,137 @@
+:root {
+    --color-orange-50: #f54100;
+    --color-orange-100: #d83a00;
+    --color-orange-150: #bc3200;
+  
+    --color-dark-50: #1a1a1a;
+    --color-dark-100: #0a0a0a;
+    --color-dark-150: #000000;
+  
+    --color-light-0: #e1e1e1aa;
+    --color-light-50: #e1e1e1;
+    --color-light-100: #d6d6d6;
+    --color-light-150: #cccccc;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-dark-150);
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/313/488/desktop-wallpaper-portrait-dark-bodybuilding-art-light-blackandwhite-body-building.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  header {
+    width: 850px;
+    height: 80px;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  #logo {
+    transition: 0.5s;
+  }
+  
+  #logo:hover {
+    transform: scale(1.07);
+  }
+  
+  #logo a {
+    text-decoration: none;
+  }
+  
+  #logo a h1 {
+    color: var(--color-light-50);
+  }
+  
+  #logo a h1 span {
+    color: var(--color-orange-50);
+  }
+  
+  #menu ul {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  #menu ul li {
+    transition: 0.5s;
+  }
+  
+  #menu ul li:hover {
+    transform: scale(1.07);
+  }
+  
+  #menu ul li a {
+    color: var(--color-light-50);
+    padding: 10px;
+    text-decoration: none;
+    transition: 0.5s;
+  }
+  
+  #menu ul li a:hover {
+    color: var(--color-orange-50);
+  }
+  
+  #home {
+    width: 850;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #home_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #home_content #txt_home h2 {
+    color: var(--color-light-50);
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+  }
+  
+  #home_content #txt_home h2 span {
+    color: var(--color-orange-50);
+  }
+  
+  #home_content #txt_home p {
+    color: var(--color-light-50);
+    text-align: center;
+    font-size: 1.15rem;
+  }
+  
+  #home_content #btn_home a {
+    text-decoration: none;
+  }
+  
+  #home_content #btn_home button {
+    padding: 10px 25px;
+    margin-top: 35px;
+    font-size: 1.2rem;
+    font-weight: 300;
+    border: none;
+    background-color: var(--color-orange-50);
+    color: var(--color-light-50);
+    transition: 0.5s;
+  }
+  
+  #home_content #btn_home button:hover {
+    transform: scale(1.05);
+  }
+  
